@@ -107,6 +107,1134 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 498098, guid: 33d35a7482249f7459736cfb208ba074, type: 2}
   m_PrefabInternal: {fileID: 2102828346}
+--- !u!1 &488232475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 488232476}
+  - 114: {fileID: 488232477}
+  m_Layer: 0
+  m_Name: chunk_0_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &488232476
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 488232475}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1824223731}
+  m_Father: {fileID: 1960100083}
+  m_RootOrder: 1
+--- !u!114 &488232477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 488232475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 929229186, guid: 533361e04fa896b4395cced4d33088c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _firstRow: 0
+  _firstColumn: 12
+  _flags: 0
+  tiles:
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 208
+    variationIndex: 0
+    tilesetIndex: 7
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 104
+    variationIndex: 0
+    tilesetIndex: 8
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 214
+    variationIndex: 0
+    tilesetIndex: 1
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 107
+    variationIndex: 0
+    tilesetIndex: 3
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 214
+    variationIndex: 0
+    tilesetIndex: 1
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 107
+    variationIndex: 0
+    tilesetIndex: 3
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 214
+    variationIndex: 0
+    tilesetIndex: 1
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 107
+    variationIndex: 0
+    tilesetIndex: 3
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 214
+    variationIndex: 0
+    tilesetIndex: 1
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 107
+    variationIndex: 0
+    tilesetIndex: 3
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 214
+    variationIndex: 0
+    tilesetIndex: 1
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 107
+    variationIndex: 0
+    tilesetIndex: 3
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 254
+    variationIndex: 0
+    tilesetIndex: 16
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 107
+    variationIndex: 0
+    tilesetIndex: 3
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 107
+    variationIndex: 0
+    tilesetIndex: 3
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 11
+    variationIndex: 0
+    tilesetIndex: 9
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+--- !u!1 &849023171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 849023172}
+  - 114: {fileID: 849023175}
+  - 33: {fileID: 849023174}
+  - 23: {fileID: 849023173}
+  m_Layer: 0
+  m_Name: _procedural
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &849023172
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 849023171}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1716137507}
+  m_RootOrder: 0
+--- !u!23 &849023173
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 849023171}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 6777f947e1cd5da42a73174c566d6368, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1560054951
+  m_SortingOrder: 0
+--- !u!33 &849023174
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 849023171}
+  m_Mesh: {fileID: 0}
+--- !u!114 &849023175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 849023171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1652039355, guid: 533361e04fa896b4395cced4d33088c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _chunk: {fileID: 1716137508}
+  _persist: 0
 --- !u!1 &981138952
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,6 +1419,1058 @@ Transform:
   - {fileID: 981138953}
   m_Father: {fileID: 1574035069}
   m_RootOrder: 0
+--- !u!1 &1716137506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1716137507}
+  - 114: {fileID: 1716137508}
+  m_Layer: 0
+  m_Name: chunk_0_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1716137507
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1716137506}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 849023172}
+  m_Father: {fileID: 1960100083}
+  m_RootOrder: 0
+--- !u!114 &1716137508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1716137506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 929229186, guid: 533361e04fa896b4395cced4d33088c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _firstRow: 0
+  _firstColumn: 0
+  _flags: 0
+  tiles:
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 208
+    variationIndex: 0
+    tilesetIndex: 7
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 104
+    variationIndex: 0
+    tilesetIndex: 8
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 214
+    variationIndex: 0
+    tilesetIndex: 1
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 107
+    variationIndex: 0
+    tilesetIndex: 3
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 214
+    variationIndex: 0
+    tilesetIndex: 1
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 107
+    variationIndex: 0
+    tilesetIndex: 3
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 214
+    variationIndex: 0
+    tilesetIndex: 1
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 107
+    variationIndex: 0
+    tilesetIndex: 3
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 214
+    variationIndex: 0
+    tilesetIndex: 1
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 107
+    variationIndex: 0
+    tilesetIndex: 3
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 214
+    variationIndex: 0
+    tilesetIndex: 1
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 107
+    variationIndex: 0
+    tilesetIndex: 3
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 0
+    gameObject: {fileID: 0}
+    orientationMask: 0
+    variationIndex: 0
+    tilesetIndex: -1
+    tileset: {fileID: 0}
+    brush: {fileID: 0}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 214
+    variationIndex: 0
+    tilesetIndex: 1
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 251
+    variationIndex: 0
+    tilesetIndex: 17
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 248
+    variationIndex: 0
+    tilesetIndex: 2
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 214
+    variationIndex: 0
+    tilesetIndex: 1
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 255
+    variationIndex: 0
+    tilesetIndex: 0
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 22
+    variationIndex: 0
+    tilesetIndex: 10
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+  - _flags: 1114112
+    gameObject: {fileID: 0}
+    orientationMask: 31
+    variationIndex: 0
+    tilesetIndex: 4
+    tileset: {fileID: 11400000, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
+    brush: {fileID: 11487306, guid: 2664905ee12cfbc4b99004e50294b21b, type: 2}
 --- !u!1 &1741149989
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,6 +2498,82 @@ Transform:
   m_Children: []
   m_Father: {fileID: 981138953}
   m_RootOrder: 1
+--- !u!1 &1824223730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1824223731}
+  - 114: {fileID: 1824223734}
+  - 33: {fileID: 1824223733}
+  - 23: {fileID: 1824223732}
+  m_Layer: 0
+  m_Name: _procedural
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1824223731
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1824223730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 488232476}
+  m_RootOrder: 0
+--- !u!23 &1824223732
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1824223730}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 6777f947e1cd5da42a73174c566d6368, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1560054951
+  m_SortingOrder: 0
+--- !u!33 &1824223733
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1824223730}
+  m_Mesh: {fileID: 0}
+--- !u!114 &1824223734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1824223730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1652039355, guid: 533361e04fa896b4395cced4d33088c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _chunk: {fileID: 488232477}
+  _persist: 0
 --- !u!1 &1960100082
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,7 +2599,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -12, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1716137507}
+  - {fileID: 488232476}
   m_Father: {fileID: 1034036530}
   m_RootOrder: 0
 --- !u!114 &1960100084
@@ -396,8 +2654,8 @@ MonoBehaviour:
   _chunkWidth: 12
   _chunkHeight: 12
   _chunks:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1716137508}
+  - {fileID: 488232477}
   hintEraseEmptyChunks: 1
   _sortingLayerID: 1560054951
   _sortingOrder: 0
