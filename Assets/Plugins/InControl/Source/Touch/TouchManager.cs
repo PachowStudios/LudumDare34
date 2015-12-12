@@ -49,7 +49,7 @@ namespace InControl
 		Touch[] cachedTouches;
 		List<Touch> activeTouches;
 		ReadOnlyCollection<Touch> readOnlyActiveTouches;
-		Vector2 lastMousePosition;
+		//Vector2 lastMousePosition;
 		bool isReady;
 
 		#pragma warning disable 414

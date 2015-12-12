@@ -19,7 +19,7 @@ namespace Rotorz.Tile.Editor.Internal {
 		}
 
 		// Force assembly reload upon changing language even if unchanged!
-		// 635797886186078164
+		// 635855289829590453
 
 		private static readonly string LanguageCultureName = "en-US";
 		private static readonly string LanguageVer = "2.4.0";
