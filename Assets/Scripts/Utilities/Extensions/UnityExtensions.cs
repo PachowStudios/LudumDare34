@@ -37,20 +37,24 @@ namespace UnityEngine
     public static void Destroy(this GameObject parent, float delay)
       => Object.Destroy(parent, delay);
 
-    public static void HideInHierarchy(this GameObject parent)
+    public static GameObject HideInHierarchy(this GameObject gameObject)
     {
-      parent.hideFlags |= HideFlags.HideInHierarchy;
+      gameObject.hideFlags |= HideFlags.HideInHierarchy;
 
-      parent.SetActive(false);
-      parent.SetActive(true);
+      gameObject.SetActive(false);
+      gameObject.SetActive(true);
+
+      return gameObject;
     }
 
-    public static void UnhideInHierarchy(this GameObject parent)
+    public static GameObject UnhideInHierarchy(this GameObject gameObject)
     {
-      parent.hideFlags &= ~HideFlags.HideInHierarchy;
+      gameObject.hideFlags &= ~HideFlags.HideInHierarchy;
 
-      parent.SetActive(false);
-      parent.SetActive(true);
+      gameObject.SetActive(false);
+      gameObject.SetActive(true);
+
+      return gameObject;
     }
 
     public static bool HasLayer(this LayerMask parent, int layer)
