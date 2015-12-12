@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Character
 {
-  public class BaseMovable : MonoBehaviour, IMovable
+  public abstract class BaseMovable : MonoBehaviour, IMovable
   {
     [Header("Base Movement")]
     [SerializeField] private float gravity = -35f;
