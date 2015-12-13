@@ -1,7 +1,6 @@
-﻿using LudumDare34;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Character
+namespace LudumDare34
 {
   public abstract class BaseMovable : MonoBehaviour, IMovable
   {

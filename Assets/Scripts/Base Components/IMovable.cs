@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Character
+namespace LudumDare34
 {
   public interface IMovable
   {

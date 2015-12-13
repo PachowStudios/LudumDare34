@@ -10,20 +10,20 @@ namespace System
     public static T GetAttributeOfType<T>(this PropertyInfo propertyInfo, bool inherit = false)
     => (T)propertyInfo.GetCustomAttributes(typeof(T), inherit).FirstOrDefault();
 
-    public static T GetAttributeOfType<T>(this Enum parent)
+    public static T GetAttributeOfType<T>(this Enum source)
       where T : Attribute
-      => (T)parent
+      => (T)source
         .GetType()
-        .GetMember(parent.ToString()).First()
+        .GetMember(source.ToString()).First()
         .GetCustomAttributes(typeof(T), false).FirstOrDefault();
 
-    public static string GetDescription(this Enum parent)
-      => parent.GetAttributeOfType<DescriptionAttribute>()?.Description
+    public static string GetDescription(this Enum source)
+      => source.GetAttributeOfType<DescriptionAttribute>()?.Description
       ?? string.Empty;
 
-    public static IEnumerable<PropertyInfo> GetPropertiesWithAttribute<T>(this Type targetType, bool inherit = false)
+    public static IEnumerable<PropertyInfo> GetPropertiesWithAttribute<T>(this Type type, bool inherit = false)
       where T : Attribute
-      => targetType
+      => type
         .GetProperties(BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance)
         .Where(p => Attribute.IsDefined(p, typeof(T), inherit))
         .ToList();

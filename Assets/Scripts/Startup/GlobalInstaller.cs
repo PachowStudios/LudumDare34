@@ -8,7 +8,7 @@ namespace LudumDare34
   {
     public override void InstallBindings()
     {
-      Container.BindLifetimeSingleton<Bootystrapper>();
+      Container.BindAllInterfacesToSingle<Bootystrapper>();
     }
   }
 }
