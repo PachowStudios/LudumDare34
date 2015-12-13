@@ -2,7 +2,13 @@
 {
   public class PlayerRegistration
   {
-    public PlayerId Id { get; set; }
-    public PlayerType Type { get; set; } 
+    public PlayerId Id { get; }
+    public PlayerType Type { get; }
+
+    public PlayerRegistration(PlayerId id, PlayerType type)
+    {
+      Id = id;
+      Type = type;
+    }
   }
 }

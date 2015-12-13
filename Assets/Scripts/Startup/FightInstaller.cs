@@ -1,6 +1,5 @@
 ﻿using System;
 using JetBrains.Annotations;
-using Managers;
 using UnityEngine;
 using Zenject;
 
@@ -12,11 +11,10 @@ namespace LudumDare34
     [Serializable]
     public class Settings
     {
-      [UsedImplicitly]
-      public GameObject PlayerPrefab;
+      [UsedImplicitly] public PlayerView.Factory.Settings PlayerViewFactory;
     }
 
-    [SerializeField] private Settings settings;
+    [SerializeField] private Settings settings = null;
 
     public override void InstallBindings()
     {
@@ -31,14 +29,20 @@ namespace LudumDare34
 
     private void InstallPlayerFacade(DiContainer container, PlayerRegistration playerRegistration)
     {
-      container.Bind<PlayerRegistration>().ToInstance(playerRegistration);
+      container.BindInstance(playerRegistration);
+      container.BindInstance(this.settings.PlayerViewFactory);
 
-      container.Bind<PlayerView>().ToSinglePrefab(this.settings.PlayerPrefab);
       container.BindAllInterfacesToSingle<PlayerMovement>();
       container.BindAllInterfacesToSingle<PlayerHealth>();
 
+      container.Bind<PlayerView.Factory>().ToSingle();
+      container.Bind<PlayerView>().ToSingleMethod(
+        c => c.Container.Resolve<PlayerView.Factory>().Create());
+      container.Bind<IView>().ToLookup<PlayerView>();
+
       container.Bind<PlayerController.Factory>().ToSingle();
-      container.Bind<IPlayerController>().ToGetter<PlayerController.Factory>(f => f.Create());
+      container.Bind<IPlayerController>().ToSingleMethod(
+        c => c.Container.Resolve<PlayerController.Factory>().Create());
       container.Bind<ITickable>().ToLookup<IPlayerController>();
     }
   }
