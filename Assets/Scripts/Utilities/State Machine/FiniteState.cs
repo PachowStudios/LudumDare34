@@ -1,6 +1,8 @@
-﻿namespace LudumDare34
+﻿using Zenject;
+
+namespace LudumDare34
 {
-  public abstract class FiniteState<T>
+  public abstract class FiniteState<T> : ITickable
     where T : class
   {
     protected FiniteStateMachine<T> StateMachine { get; }
@@ -16,9 +18,8 @@
 
     public virtual void Reason() { }
 
-    public virtual void Update(float deltaTime) { }
+    public virtual void Tick() { }
 
     public virtual void End() { }
   }
-
 }

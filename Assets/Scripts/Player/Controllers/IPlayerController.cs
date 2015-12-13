@@ -2,10 +2,10 @@
 
 namespace LudumDare34
 {
-  public interface IPlayerController : IInitializable, ITickable
+  public interface IPlayerController : ITickable
   {
     PlayerRegistration Registration { get; }
-    IMovable Movement { get; }
-    IHasHealth Health { get; }
+    PlayerMovement Movement { get; }
+    PlayerHealth Health { get; }
   }
 }

@@ -4,10 +4,10 @@ namespace LudumDare34
 {
   public class GameController : IInitializable, ITickable
   {
-    [Inject] private PlayerFacade.Factory PlayerFactory { get; set; }
-
     private PlayerFacade player1;
     private PlayerFacade player2;
+
+    [Inject] private PlayerFacade.Factory PlayerFactory { get; set; }
 
     public void Initialize()
     {

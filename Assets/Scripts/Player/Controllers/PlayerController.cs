@@ -1,4 +1,5 @@
 ﻿using InControl;
+using LudumDare34.States;
 using Zenject;
 
 namespace LudumDare34
@@ -6,13 +7,19 @@ namespace LudumDare34
   public abstract partial class PlayerController : IPlayerController
   {
     [Inject] public PlayerRegistration Registration { get; private set; }
-    [Inject] public IMovable Movement { get; private set; }
-    [Inject] public IHasHealth Health { get; private set; }
+    [Inject] public PlayerMovement Movement { get; private set; }
+    [Inject] public PlayerHealth Health { get; private set; }
 
     protected abstract IInputControl FightInput { get; }
 
-    public abstract void Initialize();
+    protected FiniteStateMachine<PlayerController> StateMachine { get; private set; }
 
-    public abstract void Tick();
+    [PostInject]
+    public virtual void Initialize()
+      => StateMachine = new FiniteStateMachine<PlayerController>(this)
+        .AddState<IdleState>();
+
+    public virtual void Tick()
+      => StateMachine.Tick();
   }
 }

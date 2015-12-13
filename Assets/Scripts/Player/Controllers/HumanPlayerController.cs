@@ -1,21 +1,24 @@
 ﻿using InControl;
+using UnityEngine;
 
 namespace LudumDare34
 {
-  public class HumanPlayerController : PlayerController
+  public sealed class HumanPlayerController : PlayerController
   {
-    protected override IInputControl FightInput => PlayerInput.Fight;
-
     private PlayerActions PlayerInput { get; set; }
+
+    protected override IInputControl FightInput => PlayerInput.Fight;
 
     public override void Initialize()
     {
+      base.Initialize();
+
       PlayerInput = PlayerActions.CreateForPlayer(Registration.Id);
     }
 
     public override void Tick()
     {
-      
+      base.Tick();
     }
   }
 }

@@ -2,19 +2,23 @@
 
 namespace LudumDare34
 {
-  public class AiPlayerController : PlayerController
+  public sealed class AiPlayerController : PlayerController
   {
-    protected override IInputControl FightInput => AiInput;
-
     private AiInputControl AiInput { get; set; }
+
+    protected override IInputControl FightInput => AiInput;
 
     public override void Initialize()
     {
+      base.Initialize();
+
       AiInput = new AiInputControl();
     }
 
     public override void Tick()
     {
+      base.Tick();
+
       AiInput.Tick();
     }
   }

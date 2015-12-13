@@ -6,7 +6,7 @@ namespace LudumDare34
 {
   public partial class PlayerController
   {
-    public class Factory : IFactory<IPlayerController>, IValidatable
+    public class Factory : IValidatable
     {
       [Inject] private DiContainer Container { get; set; }
       [Inject] private PlayerRegistration PlayerRegistration { get; set; }

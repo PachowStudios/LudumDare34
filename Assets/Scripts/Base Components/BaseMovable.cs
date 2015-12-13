@@ -4,18 +4,14 @@ namespace LudumDare34
 {
   public abstract class BaseMovable : IMovable
   {
-    [Header("Base Movement")]
-    [SerializeField] private float gravity = -35f;
-    [SerializeField] private float moveSpeed = 5f;
+    public abstract float Gravity { get; }
+    public abstract float MoveSpeed { get; }
 
     protected abstract IView View { get; }
 
     public virtual Vector3 Velocity { get; protected set; }
-
     public virtual float? MoveSpeedOverride { get; set; }
 
-    public virtual float Gravity => this.gravity;
-    public virtual float MoveSpeed => this.moveSpeed;
     public virtual Collider2D Collider => View.Collider;
     public virtual Vector3 Position => View.Transform.position;
     public virtual Vector3 CenterPoint => Collider.bounds.center;
@@ -39,7 +35,7 @@ namespace LudumDare34
       if (height <= 0f || !IsGrounded)
         return false;
 
-      Velocity = Velocity.SetY(Mathf.Sqrt(2f * height * -this.gravity));
+      Velocity = Velocity.SetY(Mathf.Sqrt(2f * height * -Gravity));
 
       return true;
     }

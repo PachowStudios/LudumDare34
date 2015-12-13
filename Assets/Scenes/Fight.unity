@@ -7805,6 +7805,14 @@ MonoBehaviour:
       Player2Prefab: {fileID: 104784, guid: 795800adfe626f240a7ceb8c3ac1f53a, type: 2}
       Player1Start: {fileID: 2102899928}
       Player2Start: {fileID: 1324505995}
+    PlayerMovement:
+      Gravity: -35
+      MoveSpeed: 5
+      IdleMovementRange: 4
+      ChangeDirectionTimeRange: {x: .5, y: 2}
+      JumpHeight: 5
+      GroundDamping: 10
+      AirDamping: 5
 --- !u!114 &1574035071
 MonoBehaviour:
   m_ObjectHideFlags: 0

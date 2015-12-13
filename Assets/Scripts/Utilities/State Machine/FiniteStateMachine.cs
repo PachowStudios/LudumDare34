@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.Assertions;
+using Zenject;
 
 namespace LudumDare34
 {
-  public sealed class FiniteStateMachine<T>
+  public sealed class FiniteStateMachine<T> : ITickable
     where T : class
   {
     public event Action StateChanged;
@@ -14,7 +16,7 @@ namespace LudumDare34
 
     public FiniteState<T> CurrentState { get; private set; }
     public FiniteState<T> PreviousState { get; private set; }
-    public float ElapsedTimeInState { get; private set; }
+    public float TimeElapsedInState { get; private set; }
 
     public FiniteStateMachine(T context)
     {
@@ -22,7 +24,7 @@ namespace LudumDare34
     }
 
     public FiniteStateMachine<T> AddState<TState>()
-      where TState : FiniteState<T>, new()
+      where TState : FiniteState<T>
     {
       this.states[typeof(TState)] = ReflectionHelper.Create<TState>(this, this.context);
 
@@ -49,7 +51,7 @@ namespace LudumDare34
       CurrentState = this.states[typeof(TState)];
 
       CurrentState.Begin();
-      ElapsedTimeInState = 0f;
+      TimeElapsedInState = 0f;
       StateChanged?.Invoke();
 
       return (TState)CurrentState;
@@ -59,11 +61,11 @@ namespace LudumDare34
       where TState : FiniteState<T>
       => PreviousState is TState;
 
-    public void Update(float deltaTime)
+    public void Tick()
     {
-      ElapsedTimeInState += deltaTime;
+      TimeElapsedInState += Time.deltaTime;
       CurrentState.Reason();
-      CurrentState.Update(deltaTime);
+      CurrentState.Tick();
     }
   }
 }

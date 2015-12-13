@@ -12,6 +12,7 @@ namespace LudumDare34
     public class Settings
     {
       [UsedImplicitly] public PlayerView.Factory.Settings PlayerViewFactory;
+      [UsedImplicitly] public PlayerMovement.Settings PlayerMovement;
     }
 
     [SerializeField] private Settings settings = null;
@@ -31,8 +32,11 @@ namespace LudumDare34
     {
       container.BindInstance(playerRegistration);
       container.BindInstance(this.settings.PlayerViewFactory);
+      container.BindInstance(this.settings.PlayerMovement);
 
+      container.Bind<PlayerMovement>().ToSingle();
       container.BindAllInterfacesToSingle<PlayerMovement>();
+      container.Bind<PlayerHealth>().ToSingle();
       container.BindAllInterfacesToSingle<PlayerHealth>();
 
       container.Bind<PlayerView.Factory>().ToSingle();
