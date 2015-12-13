@@ -78,8 +78,8 @@ MonoBehaviour:
   alwaysAddContainer: 0
   _coalesce: 1
   _coalesceWithRotated: 0
-  _coalesceWithBorder: 0
+  _coalesceWithBorder: 1
   _coalesceBrushGroup: 0
   _coalesceWithBrushGroups: 
   _innerSolidFlag: 1
-  addInnerCollider: 1
+  addInnerCollider: 0
