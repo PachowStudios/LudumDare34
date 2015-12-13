@@ -12,7 +12,7 @@ namespace LudumDare34
     public void Initialize()
     {
       this.player1 = PlayerFactory.Create(PlayerId.Player1, PlayerType.Human);
-      this.player2 = PlayerFactory.Create(PlayerId.Player2, PlayerType.Human);
+      this.player2 = PlayerFactory.Create(PlayerId.Player2, PlayerType.Ai);
     }
 
     public void Tick()
