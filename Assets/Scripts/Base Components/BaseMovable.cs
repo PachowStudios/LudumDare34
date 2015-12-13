@@ -2,14 +2,13 @@
 
 namespace LudumDare34
 {
-  public abstract class BaseMovable : MonoBehaviour, IMovable
+  public abstract class BaseMovable : IMovable
   {
     [Header("Base Movement")]
     [SerializeField] private float gravity = -35f;
     [SerializeField] private float moveSpeed = 5f;
 
-    private Collider2D colliderComponent;
-    private CharacterController2D controller;
+    protected abstract IView View { get; }
 
     public virtual Vector3 Velocity { get; protected set; }
 
@@ -17,26 +16,23 @@ namespace LudumDare34
 
     public virtual float Gravity => this.gravity;
     public virtual float MoveSpeed => this.moveSpeed;
-    public virtual Vector3 Position => transform.position;
+    public virtual Collider2D Collider => View.Collider;
+    public virtual Vector3 Position => View.Transform.position;
     public virtual Vector3 CenterPoint => Collider.bounds.center;
     public virtual Vector2 MovementDirection => Velocity.normalized;
-    public virtual int FacingDirection => transform.localScale.x.Sign();
+    public virtual int FacingDirection => View.Transform.localScale.x.Sign();
     public virtual bool IsFalling => Velocity.y < 0f;
-    public virtual bool IsGrounded => Controller.IsGrounded;
-    public virtual bool WasGrounded => Controller.WasGroundedLastFrame;
-    public virtual LayerMask CollisionLayers => Controller.PlatformMask;
-
-    public virtual Collider2D Collider => this.GetComponentIfNull(ref this.colliderComponent);
-
-    protected CharacterController2D Controller => this.GetComponentIfNull(ref this.controller);
+    public virtual bool IsGrounded => View.CharacterController.IsGrounded;
+    public virtual bool WasGrounded => View.CharacterController.WasGroundedLastFrame;
+    public virtual LayerMask CollisionLayers => View.CharacterController.PlatformMask;
 
     public virtual void Move(Vector3 moveVelocity)
     {
-      Controller.Move(moveVelocity * Time.deltaTime);
-      Velocity = Controller.Velocity;
+      View.CharacterController.Move(moveVelocity * Time.deltaTime);
+      Velocity = View.CharacterController.Velocity;
     }
 
-    public virtual void Flip() => transform.Flip();
+    public virtual void Flip() => View.Transform.Flip();
 
     public virtual bool Jump(float height)
     {
@@ -64,8 +60,8 @@ namespace LudumDare34
         return;
 
       Velocity += knockback.ToVector3();
-      Controller.Move(Velocity * Time.deltaTime);
-      Velocity = Controller.Velocity;
+      View.CharacterController.Move(Velocity * Time.deltaTime);
+      Velocity = View.CharacterController.Velocity;
     }
 
     public virtual void Disable() { }

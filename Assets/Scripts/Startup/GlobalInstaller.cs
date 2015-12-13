@@ -9,6 +9,7 @@ namespace LudumDare34
     public override void InstallBindings()
     {
       Container.BindAllInterfacesToSingle<Bootystrapper>();
+      Container.Bind<IEventAggregator>().ToSingle<EventAggregator>();
     }
   }
 }

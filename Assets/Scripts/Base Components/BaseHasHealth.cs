@@ -3,9 +3,11 @@ using UnityEngine.Assertions;
 
 namespace LudumDare34
 {
-  public abstract class BaseHasHealth : MonoBehaviour, IHasHealth
+  public abstract class BaseHasHealth : IHasHealth
   {
     protected int health = 0;
+
+    protected abstract IView View { get; }
 
     public abstract int MaxHealth { get; }
     public abstract int Health { get; protected set; }
