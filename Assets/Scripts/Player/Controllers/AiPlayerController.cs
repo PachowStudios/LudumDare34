@@ -8,7 +8,7 @@ namespace LudumDare34
 
     protected override IInputControl FightInput => AiInput;
 
-    public override void Initialize()
+    protected override void Initialize()
     {
       base.Initialize();
 

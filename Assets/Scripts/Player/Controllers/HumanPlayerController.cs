@@ -1,15 +1,17 @@
 ﻿using InControl;
-using UnityEngine;
+using Zenject;
 
 namespace LudumDare34
 {
   public sealed class HumanPlayerController : PlayerController
   {
+    [Inject] private PlayerRegistration Registration { get; set; }
+
     private PlayerActions PlayerInput { get; set; }
 
     protected override IInputControl FightInput => PlayerInput.Fight;
 
-    public override void Initialize()
+    protected override void Initialize()
     {
       base.Initialize();
 

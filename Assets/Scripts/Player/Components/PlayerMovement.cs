@@ -12,14 +12,16 @@ namespace LudumDare34
     {
       [UsedImplicitly] public float Gravity = -35f;
       [UsedImplicitly] public float MoveSpeed = 5f;
-      [UsedImplicitly] public float IdleMovementRange = 4f;
-      [UsedImplicitly] public Vector2 ChangeDirectionTimeRange = new Vector2(0.5f, 2f);
       [UsedImplicitly] public float JumpHeight = 5f;
       [UsedImplicitly] public float GroundDamping = 10f;
       [UsedImplicitly] public float AirDamping = 5f;
+      [UsedImplicitly] public float IdleMovementRange = 4f;
+      [UsedImplicitly] public Vector2 ChangeDirectionTimeRange = new Vector2(0.5f, 2f);
+      [UsedImplicitly] public Vector2 KnockbackOnDamage = new Vector2(3f, 2f);
     }
 
     [Inject] public Settings Config { get; private set; }
+
     [Inject] private PlayerView PlayerView { get; set; }
 
     public int HorizontalMovement { get; set; }
@@ -33,6 +35,9 @@ namespace LudumDare34
     {
       ApplyMovement();
     }
+
+    public void ApplyDamageKnockback()
+      => ApplyKnockback(Config.KnockbackOnDamage, Vector3.one.SetX(-FacingDirection));
 
     private void ApplyMovement()
     {

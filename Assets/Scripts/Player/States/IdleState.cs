@@ -1,18 +1,21 @@
 ﻿using UnityEngine;
+using Zenject;
 
-namespace LudumDare34.States
+namespace LudumDare34
 {
   public class IdleState : FiniteState<PlayerController>
   {
     private float changeDirectionTimer;
+
+    [Inject] private PlayerMovement Movement => Context.Movement;
 
     public IdleState(FiniteStateMachine<PlayerController> stateMachine, PlayerController context)
       : base(stateMachine, context) { }
 
     public override void Begin()
     {
-      if (Context.Movement.HorizontalMovement == 0)
-        Context.Movement.HorizontalMovement = MathHelper.RandomSign();
+      if (Movement.HorizontalMovement == 0)
+        Movement.HorizontalMovement = MathHelper.RandomSign();
 
       ResetTimer();
     }
@@ -23,13 +26,13 @@ namespace LudumDare34.States
 
       if (this.changeDirectionTimer <= 0f)
       {
-        Context.Movement.HorizontalMovement *= -1;
+        Movement.HorizontalMovement *= -1;
         ResetTimer();
       }
     }
 
     private void ResetTimer()
       => this.changeDirectionTimer =
-        Context.Movement.Config.ChangeDirectionTimeRange.RandomRange();
+        Movement.Config.ChangeDirectionTimeRange.RandomRange();
   }
 }

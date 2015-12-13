@@ -7808,11 +7808,12 @@ MonoBehaviour:
     PlayerMovement:
       Gravity: -35
       MoveSpeed: 5
-      IdleMovementRange: 4
-      ChangeDirectionTimeRange: {x: .5, y: 2}
       JumpHeight: 5
       GroundDamping: 10
       AirDamping: 5
+      IdleMovementRange: 4
+      ChangeDirectionTimeRange: {x: .5, y: 2}
+      KnockbackOnDamage: {x: 6, y: 2}
 --- !u!114 &1574035071
 MonoBehaviour:
   m_ObjectHideFlags: 0

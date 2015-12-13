@@ -28,26 +28,28 @@ namespace LudumDare34
         PlayerFacade.Factory>(InstallPlayerFacade);
     }
 
-    private void InstallPlayerFacade(DiContainer container, PlayerRegistration playerRegistration)
+    private void InstallPlayerFacade(DiContainer subContainer, PlayerRegistration playerRegistration)
     {
-      container.BindInstance(playerRegistration);
-      container.BindInstance(this.settings.PlayerViewFactory);
-      container.BindInstance(this.settings.PlayerMovement);
+      subContainer.BindInstance(playerRegistration);
+      subContainer.BindInstance(this.settings.PlayerViewFactory);
+      subContainer.BindInstance(this.settings.PlayerMovement);
 
-      container.Bind<PlayerMovement>().ToSingle();
-      container.BindAllInterfacesToSingle<PlayerMovement>();
-      container.Bind<PlayerHealth>().ToSingle();
-      container.BindAllInterfacesToSingle<PlayerHealth>();
+      subContainer.Bind<IEventAggregator>().ToSingle<EventAggregator>();
 
-      container.Bind<PlayerView.Factory>().ToSingle();
-      container.Bind<PlayerView>().ToSingleMethod(
+      subContainer.Bind<PlayerMovement>().ToSingle();
+      subContainer.BindAllInterfacesToSingle<PlayerMovement>();
+      subContainer.Bind<PlayerHealth>().ToSingle();
+      subContainer.BindAllInterfacesToSingle<PlayerHealth>();
+
+      subContainer.Bind<PlayerView.Factory>().ToSingle();
+      subContainer.Bind<PlayerView>().ToSingleMethod(
         c => c.Container.Resolve<PlayerView.Factory>().Create());
-      container.Bind<IView>().ToLookup<PlayerView>();
+      subContainer.Bind<IView>().ToLookup<PlayerView>();
 
-      container.Bind<PlayerController.Factory>().ToSingle();
-      container.Bind<IPlayerController>().ToSingleMethod(
+      subContainer.Bind<PlayerController.Factory>().ToSingle();
+      subContainer.Bind<IPlayerController>().ToSingleMethod(
         c => c.Container.Resolve<PlayerController.Factory>().Create());
-      container.Bind<ITickable>().ToLookup<IPlayerController>();
+      subContainer.Bind<ITickable>().ToLookup<IPlayerController>();
     }
   }
 }

@@ -16,7 +16,7 @@ namespace LudumDare34
 
     public FiniteState<T> CurrentState { get; private set; }
     public FiniteState<T> PreviousState { get; private set; }
-    public float TimeElapsedInState { get; private set; }
+    public float TimeInCurrentState { get; private set; }
 
     public FiniteStateMachine(T context)
     {
@@ -37,7 +37,7 @@ namespace LudumDare34
       return this;
     }
 
-    public TState GoToState<TState>()
+    public TState GoTo<TState>()
       where TState : FiniteState<T>
     {
       if (CurrentState is TState)
@@ -51,19 +51,23 @@ namespace LudumDare34
       CurrentState = this.states[typeof(TState)];
 
       CurrentState.Begin();
-      TimeElapsedInState = 0f;
+      TimeInCurrentState = 0f;
       StateChanged?.Invoke();
 
       return (TState)CurrentState;
     }
 
-    public bool CameFromState<TState>()
+    public bool IsIn<TState>()
+      where TState : FiniteState<T>
+      => CurrentState is TState; 
+
+    public bool CameFrom<TState>()
       where TState : FiniteState<T>
       => PreviousState is TState;
 
     public void Tick()
     {
-      TimeElapsedInState += Time.deltaTime;
+      TimeInCurrentState += Time.deltaTime;
       CurrentState.Reason();
       CurrentState.Tick();
     }
