@@ -12,7 +12,6 @@ namespace LudumDare34
     Vector3 Position { get; }
     Vector3 CenterPoint { get; }
     Vector3 Velocity { get; }
-    Vector2 MovementDirection { get; }
     int FacingDirection { get; }
     bool IsFalling { get; }
     bool IsGrounded { get; }

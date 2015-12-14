@@ -23,7 +23,7 @@ namespace LudumDare34
       this.context = context;
     }
 
-    public FiniteStateMachine<T> AddState<TState>()
+    public FiniteStateMachine<T> Add<TState>()
       where TState : FiniteState<T>
     {
       this.states[typeof(TState)] = ReflectionHelper.Create<TState>(this, this.context);

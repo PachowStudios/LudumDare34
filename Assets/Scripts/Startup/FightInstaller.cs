@@ -8,11 +8,11 @@ namespace LudumDare34
   [AddComponentMenu("Ludum Dare 34/Startup/Fight Installer")]
   public class FightInstaller : MonoInstaller
   {
-    [Serializable]
+    [Serializable, UsedImplicitly(ImplicitUseTargetFlags.Members)]
     public class Settings
     {
-      [UsedImplicitly] public PlayerView.Factory.Settings PlayerViewFactory;
-      [UsedImplicitly] public PlayerMovement.Settings PlayerMovement;
+      public PlayerView.Factory.Settings PlayerViewFactory;
+      public PlayerMovement.Settings PlayerMovement;
     }
 
     [SerializeField] private Settings settings = null;

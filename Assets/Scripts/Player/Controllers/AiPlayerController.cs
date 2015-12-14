@@ -6,7 +6,7 @@ namespace LudumDare34
   {
     private AiInputControl AiInput { get; set; }
 
-    protected override IInputControl FightInput => AiInput;
+    public override IInputControl FightInput => AiInput;
 
     protected override void Initialize()
     {

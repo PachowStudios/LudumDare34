@@ -2,7 +2,9 @@
 
 namespace LudumDare34
 {
-  public abstract class FiniteState<T> : ITickable
+  public interface IFiniteState : ITickable { }
+
+  public abstract class FiniteState<T> : IFiniteState
     where T : class
   {
     protected FiniteStateMachine<T> StateMachine { get; }

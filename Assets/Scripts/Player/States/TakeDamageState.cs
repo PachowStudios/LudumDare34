@@ -1,10 +1,10 @@
 ﻿namespace LudumDare34
 {
-  public class TakingDamageState : FiniteState<PlayerController>
+  public class TakeDamageState : FiniteState<PlayerController>
   {
     private PlayerMovement Movement => Context.Movement;
 
-    public TakingDamageState(FiniteStateMachine<PlayerController> stateMachine, PlayerController context)
+    public TakeDamageState(FiniteStateMachine<PlayerController> stateMachine, PlayerController context)
       : base(stateMachine, context) { }
 
     public override void Begin()
@@ -12,8 +12,8 @@
 
     public override void Reason()
     {
-      if (StateMachine.TimeInCurrentState >= 0.25f
-          && Movement.IsGrounded)
+      if (Movement.IsGrounded
+          && StateMachine.TimeInCurrentState >= 0.1f)
         StateMachine.GoTo<IdleState>();
     }
 

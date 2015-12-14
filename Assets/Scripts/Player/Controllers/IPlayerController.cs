@@ -1,4 +1,5 @@
-﻿using Zenject;
+﻿using InControl;
+using Zenject;
 
 namespace LudumDare34
 {
@@ -6,5 +7,7 @@ namespace LudumDare34
   {
     PlayerMovement Movement { get; }
     PlayerHealth Health { get; }
+    IInputControl FightInput { get; }
+    IFiniteState CurrentState { get; } 
   }
 }

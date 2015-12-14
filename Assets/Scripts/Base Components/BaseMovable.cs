@@ -15,7 +15,6 @@ namespace LudumDare34
     public virtual Collider2D Collider => View.Collider;
     public virtual Vector3 Position => View.Transform.position;
     public virtual Vector3 CenterPoint => Collider.bounds.center;
-    public virtual Vector2 MovementDirection => Velocity.normalized;
     public virtual int FacingDirection => View.Transform.localScale.x.Sign();
     public virtual bool IsFalling => Velocity.y < 0f;
     public virtual bool IsGrounded => View.CharacterController.IsGrounded;

@@ -11,9 +11,11 @@ namespace LudumDare34
 
     [InjectLocal] private IEventAggregator Aggregator { get; set; }
 
-    protected abstract IInputControl FightInput { get; }
+    public abstract IInputControl FightInput { get; }
 
     protected FiniteStateMachine<PlayerController> StateMachine { get; private set; }
+
+    public IFiniteState CurrentState => StateMachine.CurrentState;
 
     [PostInject]
     protected virtual void Initialize()
@@ -21,9 +23,10 @@ namespace LudumDare34
       Aggregator.Subscribe(this);
 
       StateMachine = new FiniteStateMachine<PlayerController>(this)
-        .AddState<IdleState>()
-        .AddState<AttackingState>()
-        .AddState<TakingDamageState>();
+        .Add<IdleState>()
+        .Add<JumpState>()
+        .Add<AttackState>()
+        .Add<TakeDamageState>();
     }
 
     public virtual void Tick()
@@ -31,10 +34,8 @@ namespace LudumDare34
 
     public void Handle(PlayerCollidedMessage message)
     {
-      if (StateMachine.IsIn<AttackingState>())
-        return;
-
-      StateMachine.GoTo<TakingDamageState>();
+      if (message.OtherPlayer.CurrentState is JumpState)
+        StateMachine.GoTo<TakeDamageState>();
     }
   }
 }

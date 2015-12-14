@@ -10,5 +10,6 @@ namespace LudumDare34
     public PlayerId Id => Registration.Id;
     public IMovable Movement => Controller.Movement;
     public IHasHealth Health => Controller.Health;
+    public IFiniteState CurrentState => Controller.CurrentState;
   }
 }

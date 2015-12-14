@@ -9,7 +9,7 @@ namespace LudumDare34
 
     private PlayerActions PlayerInput { get; set; }
 
-    protected override IInputControl FightInput => PlayerInput.Fight;
+    public override IInputControl FightInput => PlayerInput.Fight;
 
     protected override void Initialize()
     {
